@@ -2,8 +2,12 @@
 
 hi
 
+
+
 Verified Agent Identity Setup (Step-by-Step Guide) 
-🟢 Step 1: Update & Upgrade Packages pkg update && pkg upgrade 🟢 Step 2: Install Node.js pkg install nodejs 🟢 Step 3: Install Git pkg install git 
+🟢 Step 1: Update & Upgrade Packages pkg update && pkg upgrade
+
+🟢 Step 2: Install Node.js pkg install nodejs 🟢 Step 3: Install Git pkg install git 
 
 🟢 Step 4 (Optional): Check Node.js Version node -v
 
@@ -13,7 +17,9 @@ Verified Agent Identity Setup (Step-by-Step Guide)
 
 🟢 Step 7: Install Required Dependencies npm install shell-quote @iden3/js-iden3-auth @0xpolygonid/js-sdk ethers uuid cross-fetch
 
-🟢 Step 8: Install Clawhub Setup npx clawhub@latest install verified-agent-identity 🟢 Step 9: Create New Ethereum Identity node scripts/createNewEthereumIdentity.js
+🟢 Step 8: Install Clawhub Setup npx clawhub@latest install verified-agent-identity 
+
+🟢 Step 9: Create New Ethereum Identity node scripts/createNewEthereumIdentity.js
 
 🟢 Step 10:
 
